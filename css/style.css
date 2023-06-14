@@ -1,0 +1,32 @@
+.window {
+  width: 35%;
+  margin: auto;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+li {
+  margin-top: 3px;
+}
+
+button {
+  margin: 5px;
+}
+
+.delete-span {
+  float: right;
+  border: 1px dotted black;
+  margin-right: 5px;
+}
+
+.delete-span:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .window {
+    width: 100%;
+  }
+}
